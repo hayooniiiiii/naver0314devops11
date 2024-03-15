@@ -1,0 +1,23 @@
+package day0315;
+
+public class Ex2DataType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//정수타입
+		byte a=127;
+		System.out.println(a);
+		int b=200; //byte오류일때 int로 변환
+		System.out.println(b);
+		byte c= (byte)200; //200을 byte형 변환, (byte)->cast연산자:강제로 형변환, 값손실발생
+		System.out.println(c);//값손실이 발생할경우 엉뚱한 값이 출력(내부적으로는 2의보수)
+		
+		//실수타입(정밀도가 중요)
+		float f1=123.567891234f;//f를 붙여야 4바이트 float으로 저장
+		double f2=123.567891234;
+		System.out.println(f1);
+		System.out.println(f2);
+		
+	}
+
+}

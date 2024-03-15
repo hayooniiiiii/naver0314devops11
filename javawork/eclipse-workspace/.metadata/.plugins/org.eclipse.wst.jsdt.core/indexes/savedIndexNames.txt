@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+C:\naver0314\workall\javawork\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+749239815.index
