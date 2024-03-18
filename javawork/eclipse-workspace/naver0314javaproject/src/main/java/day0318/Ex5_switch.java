@@ -25,6 +25,21 @@ public class Ex5_switch {
 			System.out.println("잘못 입력했어요");
 			return;
 		}
+		/*
+		 * switch(month) { case 2: days=flag?29:28; break; case 4: case 6: case 9: case
+		 * 11: days=30; break; default: days=31;
+		 * 
+		 * }
+		 */
+		if(month==2) {
+			days=flag?29:28;
+		}
+		else if(month==3||month==6||month==9||month==11) {
+			days=30;
+		}
+		else {
+			days=31;}
+		System.out.println(year+"년"+month+"월은"+days+"일까지 있습니다");
 
 	}
 
