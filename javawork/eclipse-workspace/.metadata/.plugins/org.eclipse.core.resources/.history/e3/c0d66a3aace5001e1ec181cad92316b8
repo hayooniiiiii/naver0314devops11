@@ -1,0 +1,23 @@
+package day0319;
+
+import java.util.Scanner;
+
+public class Ex7_while {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int score,count,sum=0;
+		while(true) {
+			System.out.println("점수를 입력하세요.");
+			score=sc.nextInt();
+			if (score==0) {
+				break;
+			}
+			sum=sum+score;
+			count=count+1;
+		}
+
+	}
+
+}
