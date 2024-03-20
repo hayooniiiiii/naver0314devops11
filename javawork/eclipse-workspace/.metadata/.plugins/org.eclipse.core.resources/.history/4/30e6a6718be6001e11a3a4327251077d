@@ -1,0 +1,24 @@
+package day0320;
+
+import java.util.Scanner;
+
+public class Ex12_ArrayMunje {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int inwon;
+		inwon=sc.nextInt();
+		String []name=new String[inwon];
+		int []kor=new int[inwon];
+		int []eng=new int[inwon];
+		int []tot=new int[inwon];
+		int []rank=new int[inwon];
+		
+		for(int i=0;i<inwon+1;i++) {
+			name[i]=sc.nextLine();
+			System.out.println(name[i]);
+		}
+	}
+
+}

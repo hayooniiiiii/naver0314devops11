@@ -1,0 +1,32 @@
+package day0320;
+
+import java.util.Scanner;
+
+public class Ex8_ArraySearchNum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int []data= {12,3,6,1,7,10,8,5,16,19};
+		int num;
+		Scanner sc= new Scanner(System.in);
+		while(true) {
+			num=sc.nextInt();
+			if(num==0)
+				break;
+
+			else {
+				for(int i=0;i<data.length;i++) {
+					if (num==data[i]) {
+						System.out.println(i+"번쨰 입니다.");
+					}
+					else {
+						System.out.println("잘못 입력했니다.");
+					}
+					
+				}
+			}
+			
+		}
+	}
+
+}
