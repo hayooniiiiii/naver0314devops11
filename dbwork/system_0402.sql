@@ -12,3 +12,12 @@ create user angel identified by a1234;
 select username from dba_users;
 drop user angel;
 select username from dba_users;
+create user angel identified by a1234;
+grant connect,resource to angel;
+--scott/tiger계정에 비번으로 user를 생성후 기본권한 추가하기
+create user scott identified by tiger;
+select username from dba_users;
+grant connect,resource to scott;
+select * from tab;
+select * from emp;
+commit;
